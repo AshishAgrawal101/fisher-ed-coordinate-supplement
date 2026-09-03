@@ -1,0 +1,9 @@
+python 3.14.5
+numpy 2.5.2
+qiskit 2.5.2
+qiskit-machine-learning 0.9.1
+same-model max probability difference: 0.000e+00
+theta chart: qiskit=2.000199988695 analytic=2.000199988695 diff=4.441e-16
+eta chart:   qiskit=1.128477253433 analytic=1.128477253433 diff=8.882e-16
+same model, ED shift: 2.000199988695 -> 1.128477253433 (-43.58%)
+Qiskit circuit-level same-model validation: PASS

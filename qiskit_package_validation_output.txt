@@ -1,0 +1,10 @@
+Command:
+.\qiskit-test\Scripts\python.exe validate_qiskit_package.py
+
+Output:
+qiskit-machine-learning 0.9.1
+m=   0 qiskit=40.003999773909 analytic=40.003999773909 diff=0.000e+00
+m=  10 qiskit=33.115650989496 analytic=33.115650989496 diff=1.421e-14
+m= 100 qiskit=11.351602263221 analytic=11.351602263221 diff=7.105e-15
+m=1000 qiskit=1.792910268036 analytic=1.792910268036 diff=2.887e-15
+Qiskit package-level functional validation: PASS

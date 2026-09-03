@@ -1,0 +1,5 @@
+# Main versions reported by the measured end-to-end circuit validation.
+# Python used for that run: 3.14.5
+numpy==2.5.2
+qiskit==2.5.2
+qiskit-machine-learning==0.9.1

@@ -1,0 +1,51 @@
+Full verification rerun: 2026-09-03
+
+Environment
+Python 3.14.5
+NumPy 2.5.2
+SciPy 1.18.1
+Matplotlib 3.10.6
+Qiskit 2.5.2
+qiskit-machine-learning 0.9.1
+
+PASS verify_linear_torus.py
+PASS verify_local_ed_coordinate_dependence.py
+PASS verify_2sed_coordinate_dependence.py
+PASS verify_qiskit_source_formula.py
+PASS verify_proof_edge_cases.py
+PASS verify_relu_local_ed.py
+PASS verify_nonconstant_fisher_stretch.py
+  global ED directional limit 1.146558921734
+  global ED Jensen bound 1.151952088401
+  2sED directional limit 2.540125856102
+  2sED Jensen bound 2.544956162271
+PASS validate_qiskit_package.py
+PASS validate_qiskit_circuit.py
+PASS build_classical_highres.py
+  vectorized 100x100 result matches original code within 2.156e-07
+PASS verify_abbas_coordinate_sensitivity.py
+  all four main archives use 50 paired matchings, both signs, and |m| <= 5
+  every bootstrap replicate renormalizes the average Fisher trace
+  basic intervals and bootstrap bias are reported for every endpoint
+
+Split-count classical rebuilds
+100 parameter x 100 input samples       0.624440463
+2000 parameter x 100 input samples      0.648508926
+100 parameter x 2000 input samples      0.652634701
+2000 parameter x 2000 input samples     0.678169932
+
+Paired-shear bands at condition budget 726.999
+QNN                                      [0.576909353, 0.898424832]
+easy QNN                                 [0.528799370, 0.771454140]
+released classical archive, d=28        [0.398572634, 0.614780718]
+rebuilt classical, 2000x2000             [0.487262104, 0.678169932]
+
+Matched-family contrast at condition budget 726.999
+rebuilt classical high - QNN low         0.101260579
+basic 95% interval                       [0.094419, 0.114967]
+
+Canonical-only no-search contrast
+rebuilt classical high - QNN low         0.088819030
+basic 95% interval                       [0.081689, 0.102400]
+
+PASS make_figures.py

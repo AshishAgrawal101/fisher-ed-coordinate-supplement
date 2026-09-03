@@ -1,0 +1,3 @@
+contrast,matching,m,estimate,bootstrap_bias,basic_ci_2.5_percent,basic_ci_97.5_percent
+rebuilt classical high minus QNN low,canonical only,5,0.08881903009610237,-0.0019204558232213953,0.08168860004069918,0.10240006167125222
+rebuilt classical high minus easy QNN low,canonical only,5,0.1418721063042757,-0.0019428512752169835,0.13477934613812206,0.1554941808606904
